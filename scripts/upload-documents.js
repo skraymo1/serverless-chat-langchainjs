@@ -42,7 +42,7 @@ async function uploadDocuments(apiUrl, dataFolder) {
   }
 }
 
-const apiUrl = process.argv[2];
+const apiUrl = "https://func-api-j7jckhun7hvg4.azurewebsites.net";//process.argv[2];
 if (apiUrl) {
   await uploadDocuments(apiUrl, 'data');
 } else {
